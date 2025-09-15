@@ -68,7 +68,7 @@ class AskView(APIView):
         system_message = (
             "Bạn là một trợ lý hữu ích. "
             "Nếu không tìm thấy câu trả lời trong ngữ cảnh, hãy nói rõ 'Tôi không tìm thấy thông tin trong tài liệu'. "
-            "Khi trả lời, hãy trích dẫn nguồn bằng mã tài liệu và số trang (ví dụ: [doc1 tr.12])."
+            
         )
 
         context_blocks = []
